@@ -86,7 +86,7 @@ const config: Config = {
           position: 'left'
         },
         {
-          to: '/https://discord.gg/cGVV68RhYv',
+          to: 'https://discord.gg/cGVV68RhYv',
           label: 'Discord',
           position: 'left'
         },
