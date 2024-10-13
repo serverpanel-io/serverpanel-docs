@@ -21,21 +21,21 @@ const data: Feature[] = [
   },
   {
     icon: <FiZap size={size} />,
-    title: "Server Monitoring and Control",
+    title: "Server Monitoring and Administration",
     description:
-      " ServerPanel allows users to monitor the real-time status of their game servers, including uptime, player counts, and server health. Users can start, stop, or restart servers directly from Discord using simple commands.",
+      " ServerPanel allows you to monitor the real-time status of your game servers, including uptime, player counts, and server health. Ban or warn players, view logs, and manage your server directly from Discord.",
   },
   {
     icon: <FiToggleRight size={size} />,
     title: "Wide Plugin Support for Customization",
     description:
-      "ServerPanel offers a broad range of plugins that can be added to enhance your servers functionality. Users can easily manage plugins through the bot.",
+      "ServerPanel offers a broad range of plugins that can be added to enhance your servers functionality. You can easily manage them through the bot.",
   },
   {
     icon: <FiGrid size={size} />,
     title: "Multi-Server Support",
     description:
-      "ServerPanel allows users to manage multiple game servers from a single Discord server. Whether you're running Minecraft, Rust, Unturned, or other supported games, you can control all your servers in one place.",
+      "ServerPanel allows users to manage multiple game servers from a single Discord server. Whether you're running Minecraft, Rust, Unturned, or other supported games, you can manage all your servers in one place.",
   },
 ]
 
