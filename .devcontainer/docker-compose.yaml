@@ -1,0 +1,14 @@
+---
+
+networks:
+  docusaurus:
+    driver: bridge
+
+services:
+  devcontainer:
+    build: .
+    command: sleep infinity
+    networks:
+      - docusaurus
+    volumes:
+      - ..:/workspace:cached

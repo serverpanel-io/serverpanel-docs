@@ -1,0 +1,28 @@
+{
+	"name": "serverpanel.io",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+
+	"dockerComposeFile" : "docker-compose.yaml",
+	"service" : "devcontainer",
+	"workspaceFolder": "/workspace",
+
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions":[
+			"Vue.volar",
+			"bradlc.vscode-tailwindcss",
+			"github.vscode-github-actions",
+			"github.vscode-pull-request-github",
+			"GitHub.copilot",
+			"golang.go",
+			"zxh404.vscode-proto3",
+			"oven.bun-vscode"
+			]
+      }
+	},
+	"forwardPorts": [],
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	"remoteUser": "vscode"
+}
